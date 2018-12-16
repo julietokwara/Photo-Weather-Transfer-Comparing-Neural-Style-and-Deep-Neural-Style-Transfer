@@ -43,11 +43,6 @@ def build_parser():
     parser.add_argument('--content_seg',
             dest='content_seg', help='segmented content image',
             metavar='CONTENT_SEG', required=True)
-    parser.add_argument('--style_seg',
-            dest='style_seg',
-            help='segmented style image',
-            metavar='STYLE_SEG', required=False)
-
     #####
 
     parser.add_argument('--output',
@@ -142,7 +137,6 @@ def main():
     content_image = imread(options.content)
     style_images = [imread(style) for style in options.styles]
     content_seg  = cv2.imread(options.content_seg, cv2.IMREAD_GRAYSCALE)
-    style_seg = imread(options.style_seg)
 
 
     width = options.width
@@ -159,8 +153,6 @@ def main():
             style_scale = options.style_scales[i]
         style_images[i] = scipy.misc.imresize(style_images[i], style_scale *
                 target_shape[1] / style_images[i].shape[1])
-        style_seg = scipy.misc.imresize(style_seg, style_scale *
-                target_shape[1] / style_seg.shape[1])
     style_blend_weights = options.style_blend_weights
     if style_blend_weights is None:
         # default is equal weights
@@ -203,7 +195,6 @@ def main():
         content=content_image,
         styles=style_images,
         content_seg=content_seg,
-        style_seg=style_seg,
         preserve_colors=options.preserve_colors,
         iterations=options.iterations,
         content_weight=options.content_weight,
