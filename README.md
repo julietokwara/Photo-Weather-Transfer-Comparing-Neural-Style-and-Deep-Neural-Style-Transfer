@@ -38,6 +38,8 @@ list:
 * [SciPy](https://github.com/scipy/scipy/blob/master/INSTALL.rst.txt)
 * [Pillow](http://pillow.readthedocs.io/en/3.3.x/installation.html#installation)
 
+You need at least one GPU to run this repo.
+
 ## Citations
 
 ```
@@ -49,3 +51,13 @@ list:
   note = {commit xxxxxxx}
 }
 ```
+Luan, Fujun and Paris, Sylvain and Shechtman, Eli and Bala, Kavita. Deep Photo Style Transfer. 
+https://github.com/luanfujun/deep-photo-styletransfer. 2017. 
+
+P.-Y. Laffont, Z. Ren, X. Tao, C. Qian, and J. Hays, “Transient attributes for high-level understanding and editing of outdoor scenes,” ACM Transactions on Graphics, vol. 33, no. 4, pp. 1–11, 2014.
+
+Smith, Cameron. neural-style-tf. https://github.com/cysmith/neural-style-tf. 2016.
+
+Yang Liu. deep-photo-style-transfer-tf.  https://github.com/LouieYang/deep-photo-styletransfer-tf. 2017.
+
+Y. Shih, S. Paris, F. Durand, and W. T. Freeman, “Data-driven hallucination of different times of day from a single outdoor photo,” ACM Transactions on Graphics, vol. 32, no. 6, pp. 1–11, Jan. 2013.
