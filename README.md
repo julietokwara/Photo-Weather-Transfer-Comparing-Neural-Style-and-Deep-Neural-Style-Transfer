@@ -6,7 +6,7 @@ The aim of this repo is to tackle the challenge of photorealistic style transfer
 
 ## Running
 
-`python neural_style.py --content <content file> --styles <style file> --output <output file>`
+`python neural_style.py --content <content file> -- content_seg <content seg file> --styles <style file> --output <output file>`
 
 Run `python neural_style.py --help` to see a list of all options.
 
@@ -15,6 +15,7 @@ Use `--checkpoint-output` and `--checkpoint-iterations` to save checkpoint image
 Use `--iterations` to change the number of iterations (default 1000).
 
 ## Example
+python neural_style.py --content_seg ./examples/pics/in31_seg.png --style_seg ./dummy/directory/image.png --content ./examples/pics/in31.png --styles ./examples/pics/resized_anotherstom.jpg   --output ./intermediate_another_storm_matting/final.jpg  --checkpoint-output 'another_storm_intermediate_matting%s.jpg' --iterations 1000 --checkpoint-iterations 100 --style-layer-weight-exp 0.2 --pooling avg
 
 
 ## Requirements
