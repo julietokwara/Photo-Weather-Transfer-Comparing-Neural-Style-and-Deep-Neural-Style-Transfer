@@ -54,7 +54,6 @@ You need at least one GPU to run this repo.
 Luan, Fujun and Paris, Sylvain and Shechtman, Eli and Bala, Kavita. Deep Photo Style Transfer. 
 https://github.com/luanfujun/deep-photo-styletransfer. 2017. 
 
-P.-Y. Laffont, Z. Ren, X. Tao, C. Qian, and J. Hays, “Transient attributes for high-level understanding and editing of outdoor scenes,” ACM Transactions on Graphics, vol. 33, no. 4, pp. 1–11, 2014.
 
 Smith, Cameron. neural-style-tf. https://github.com/cysmith/neural-style-tf. 2016.
 
