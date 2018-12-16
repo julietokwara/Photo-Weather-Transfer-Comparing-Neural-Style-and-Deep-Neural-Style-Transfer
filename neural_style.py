@@ -46,7 +46,7 @@ def build_parser():
     parser.add_argument('--style_seg',
             dest='style_seg',
             help='segmented style image',
-            metavar='STYLE_SEG', required=True)
+            metavar='STYLE_SEG', required=False)
 
     #####
 
