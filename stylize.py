@@ -60,7 +60,7 @@ def print_loss(max_iter, loss_content, loss_styles_list, loss_tv, loss_affine, o
     iter_count += 1
 
 
-def stylize(network, initial, initial_noiseblend, content, styles,content_seg, style_seg, preserve_colors, iterations,
+def stylize(network, initial, initial_noiseblend, content, styles,content_seg, preserve_colors, iterations,
         content_weight, content_weight_blend, style_weight, style_layer_weight_exp, style_blend_weights, tv_weight,
         learning_rate, beta1, beta2, epsilon, pooling,
         print_iterations=None, checkpoint_iterations=None):
