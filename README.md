@@ -17,7 +17,7 @@ Use `--checkpoint-output` and `--checkpoint-iterations` to save checkpoint image
 Use `--iterations` to change the number of iterations (default 1000).
 
 ## Example
-python neural_style.py --content_seg ./examples/content_seg/content_seg1_seg.png --content ./examples/content/content1.png --styles ./examples/style/style1.jpg --output ./c1s1_matting/c1s1_matting_final.jpg  --checkpoint-output './c1s1_matting/c1s1_matting_intermediate%s.jpg' --iterations 1000 --checkpoint-iterations 100 --style-layer-weight-exp 0.2 --pooling avg
+python neural_style.py --content_seg ./examples/content_segs/content1_seg.png --content ./examples/content/content1.png --styles ./examples/style/style1.png  --output ./c1s1_matting/c1s1_matting_final.jpg --checkpoint-output './c1s1_matting/c1s1_matting_intermediate%s.jpg' --iterations 1000 --checkpoint-iterations 100 --style-layer-weight-exp 0.2 --pooling avg
 
 
 ## Requirements
