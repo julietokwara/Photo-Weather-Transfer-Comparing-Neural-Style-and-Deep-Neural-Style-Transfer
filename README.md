@@ -35,18 +35,11 @@ You need at least one GPU to run this repo.
 
 ## Citations
 
-```
-@misc{athalye2015neuralstyle,
-  author = {Anish Athalye},
-  title = {Neural Style},
-  year = {2015},
-  howpublished = {\url{https://github.com/anishathalye/neural-style}},
-  note = {commit xxxxxxx}
-}
-```
+Anish Athalye. Neural Style.
+https://github.com/anishathalye/neural-style. 2015.
+
 Luan, Fujun and Paris, Sylvain and Shechtman, Eli and Bala, Kavita. Deep Photo Style Transfer. 
 https://github.com/luanfujun/deep-photo-styletransfer. 2017. 
-
 
 Smith, Cameron. neural-style-tf. https://github.com/cysmith/neural-style-tf. 2016.
 
