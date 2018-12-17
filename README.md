@@ -25,7 +25,7 @@ python neural_style.py --content_seg ./examples/content_segs/content1_seg.png --
 ## Requirements
 
 ### Data Files
-* [Pre-trained VGG network][net] (MD5 `8ee3263992981a1d26e73b3ca028a123`) - put it in the top level of this repository, or specify its location using the `--network` option.
+* [Pre-trained VGG network][http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat] (MD5 `8ee3263992981a1d26e73b3ca028a123`) - put it in the top level of this repository, or specify its location using the `--network` option.
 
 ### Dependencies
 
