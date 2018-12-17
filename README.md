@@ -3,6 +3,8 @@
 Authors: Juliet Okwara and Nicholas Seay
 
 The aim of this repo is to tackle the challenge of photorealistic style transfer, specifically in the context of transferring the weather, sky, and ambience elements of one photo into another. Existing methodologies such as Neural Style Transfer by Gatys et al. has been proven to be successful in generating images that merge the content of a content reference image and the style of a style reference image into a single image. However, these generated images tend to work best in an artistic context. The noisy image which the network trains on is often changed in ways reminiscent of a painting, possibly created by the artist who made the style image, rather than a photo. This repo shows the results of introducing to the original algorithm the ideas of semantic image segmentation and the Matting Laplacian. 
+## Our Dataset
+Our dataset can be found in the examples folder. It is separated between our style, content, and segmentation images. In there you can also find fully run examples in the processed_examples folder. 
 
 ## Running
 
@@ -23,8 +25,6 @@ python neural_style.py --content_seg ./examples/content_segs/content1_seg.png --
 ## Requirements
 
 ### Data Files
-Our dataset can be found in the examples folder. It is separated between our style, content, and segmentation images. In there you can also find fully run examples in the processed_examples folder. 
-
 * [Pre-trained VGG network][net] (MD5 `8ee3263992981a1d26e73b3ca028a123`) - put it in the top level of this repository, or specify its location using the `--network` option.
 
 ### Dependencies
