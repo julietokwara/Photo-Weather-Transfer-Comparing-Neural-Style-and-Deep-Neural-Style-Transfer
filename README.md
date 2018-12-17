@@ -23,6 +23,7 @@ python neural_style.py --content_seg ./examples/content_segs/content1_seg.png --
 ## Requirements
 
 ### Data Files
+Our dataset can be found in the examples folder. It is separated between our style, content, and segmentation images. In there you can also find fully run examples in the processed_examples folder. 
 
 * [Pre-trained VGG network][net] (MD5 `8ee3263992981a1d26e73b3ca028a123`) - put it in the top level of this repository, or specify its location using the `--network` option.
 
